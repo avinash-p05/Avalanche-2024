@@ -1,0 +1,81 @@
+.event-card-image {
+    /* clip-path: polygon(0% 15%, 0 0, 92% 0, 100% 17%, 100% 100%, 86% 100%, 86% 96%, 66% 96%, 66% 100%, 22% 100%, 10% 100%, 0 88%); */
+    /* background-color: yellow; */
+    /* box-shadow: inset -7px 19px 2px 10px #e7ac6fbf; */
+    width: 300px;
+    height: 193.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/events_frame.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+.EventView-container {
+    background-color: #121211;
+    width: 100%;
+    padding: 4rem 0rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.EventView-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    .event-card-register {
+        width: 15rem;
+        height: 3rem;
+    }
+
+
+}
+
+
+
+@media screen and (min-width:600px) {
+
+    .EventView-container {
+        .EventView-section {
+            .event-card {
+                .event-card-image {
+                    width: 450px;
+                    height: 289.8px;
+                }
+
+                .image-card {
+                    width: 435px;
+                    height: 270px;
+
+                    &:hover h2 {
+                        font-family: 'SilkScreen';
+                        inset: auto auto 180px 30px;
+                        transition: inset .3s ease-out;
+                        text-align: center;
+                        width: 100%;
+                        left: 0px;
+                        margin-bottom: .35rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

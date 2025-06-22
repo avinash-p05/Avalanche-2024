@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Common",
+    "events": [
+      {
+        "id": 1,
+        "title": "Cyber Security Basics",
+        "description": "An introductory event on cyber security principles.",
+        "image": "/images/event_default.png",
+        "about": "Learn the essentials of cyber security, including core concepts and preventive measures.",
+        "rules": "Bring a laptop and follow the provided instructions carefully.",
+        "contact": "cybersecurity@event.com"
+      },
+      {
+        "id": 2,
+        "title": "Advanced Cyber Attack Simulation",
+        "description": "A hands-on workshop on simulating and defending cyber attacks.",
+        "image": "/images/sample1.jpg",
+        "about": "Get an in-depth look at cyber attack simulations in real-world environments.",
+        "rules": "Prior experience in cyber security required. Follow all safety protocols.",
+        "contact": "cybersim@event.com"
+      },
+      {
+        "id": 3,
+        "title": "Ethical Hacking Workshop",
+        "description": "Learn the basics of ethical hacking.",
+        "image": null,
+        "about": "Discover techniques and practices in ethical hacking to identify system vulnerabilities.",
+        "rules": "Basic programming knowledge recommended. Bring your laptop.",
+        "contact": "hack@event.com"
+      }
+    ]
+  },
+  {
+    "name": "CS",
+    "events": [
+      {
+        "id": 4,
+        "title": "Virtual Hunt",
+        "description": "Event Overview Virtual Hunt is an engaging event designed to test participants technical knowledge andproblem-solving abilities through a series of unique challenges. Teams will compete acrossmultiple rounds, with each round eliminating lower-performing teams, leaving only the bestto advance to the final treasure hunt.Team Details● TeamSize: 3 to 4 members● Maximum Registrations: 100 teams",
+        "image": null,
+        "about": "Examine how AI is transforming the healthcare industry.",
+        "rules": "Professional attire recommended.",
+        "contact": "aihealth@event.com"
+      },
+      {
+        "id": 5,
+        "title": "Machine Learning Basics",
+        "description": "An introductory session on machine learning.",
+        "image": null,
+        "about": "Gain foundational knowledge of machine learning algorithms and techniques.",
+        "rules": "Basic understanding of statistics preferred.",
+        "contact": "mlbasics@event.com"
+      },
+      {
+        "id": 6,
+        "title": "Neural Networks Workshop",
+        "description": "Hands-on workshop on building neural networks.",
+        "image": null,
+        "about": "Develop skills in designing and training neural networks from scratch.",
+        "rules": "Laptop with Python installed is required.",
+        "contact": "neural@event.com"
+      }
+    ]
+  },
+  {
+    "name": "ISE",
+    "events": [
+      {
+        "id": 7,
+        "title": "Introduction to Robotics",
+        "description": "Learn the basics of robotics engineering.",
+        "image": null,
+        "about": "Explore the fundamentals of robotics and engineering principles.",
+        "rules": "Attendance in all sessions is mandatory.",
+        "contact": "robotics@event.com"
+      },
+      {
+        "id": 8,
+        "title": "Robotic Arm Workshop",
+        "description": "Build and program your own robotic arm.",
+        "image": null,
+        "about": "An immersive experience in robotics through hands-on projects.",
+        "rules": "No prior robotics experience required.",
+        "contact": "roboticarm@event.com"
+      },
+      {
+        "id": 9,
+        "title": "Autonomous Robotics",
+        "description": "An advanced workshop on autonomous robots.",
+        "image": null,
+        "about": "Learn about autonomous systems and self-operating robots.",
+        "rules": "Previous experience in robotics recommended.",
+        "contact": "autonomous@event.com"
+      }
+    ]
+  },
+  {
+    "name": "Mech",
+    "events": [
+      {
+        "id": 10,
+        "title": "Blockchain Basics",
+        "description": "Understand the fundamentals of blockchain technology.",
+        "image": null,
+        "about": "Dive into the foundational concepts of blockchain and its applications.",
+        "rules": "Bring a notebook and pen.",
+        "contact": "blockchain@event.com"
+      },
+      {
+        "id": 11,
+        "title": "Smart Contracts Workshop",
+        "description": "Learn to create and deploy smart contracts.",
+        "image": null,
+        "about": "Understand how smart contracts work and implement your own.",
+        "rules": "Basic programming knowledge required.",
+        "contact": "smartcontracts@event.com"
+      },
+      {
+        "id": 12,
+        "title": "Cryptocurrency Insights",
+        "description": "Dive into the world of cryptocurrency.",
+        "image": null,
+        "about": "An exploration of cryptocurrency trends and market insights.",
+        "rules": "Open to all, limited seating.",
+        "contact": "crypto@event.com"
+      }
+    ]
+  },
+  {
+    "name": "Math",
+    "events": [
+      {
+        "id": 13,
+        "title": "Data Science Basics",
+        "description": "An introduction to data science principles.",
+        "image": null,
+        "about": "Get a solid foundation in data science, including data handling and analysis.",
+        "rules": "Laptop required for hands-on activities.",
+        "contact": "datascience@event.com"
+      },
+      {
+        "id": 14,
+        "title": "Data Science with Python",
+        "description": "Learn data science with Python programming.",
+        "image": null,
+        "about": "Use Python to analyze data and generate insights.",
+        "rules": "Basic Python knowledge recommended.",
+        "contact": "pythondata@event.com"
+      },
+      {
+        "id": 15,
+        "title": "Data Visualization Workshop",
+        "description": "Create impactful visualizations with data.",
+        "image": null,
+        "about": "Learn techniques to visually represent data effectively.",
+        "rules": "Laptop with Python installed is required.",
+        "contact": "dataviz@event.com"
+      }
+    ]
+  },
+  {
+    "name": "MBA",
+    "events": [
+      {
+        "id": 16,
+        "title": "IoT Basics",
+        "description": "Understand the basics of the Internet of Things.",
+        "image": null,
+        "about": "Explore IoT fundamentals and real-world applications.",
+        "rules": "No prior experience required.",
+        "contact": "iot@event.com"
+      },
+      {
+        "id": 17,
+        "title": "Smart Home IoT Workshop",
+        "description": "Build a smart home using IoT technology.",
+        "image": null,
+        "about": "Hands-on workshop focused on smart home automation.",
+        "rules": "Bring a laptop; prior IoT knowledge helpful.",
+        "contact": "smarthome@event.com"
+      },
+      {
+        "id": 18,
+        "title": "IoT Security",
+        "description": "Learn about security challenges in IoT.",
+        "image": null,
+        "about": "Understand the importance of security in IoT systems.",
+        "rules": "Prior experience in network security recommended.",
+        "contact": "iotsecurity@event.com"
+      }
+    ]
+  }
+]

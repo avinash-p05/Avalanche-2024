@@ -1,0 +1,154 @@
+/* Existing styles for the doors */
+
+.door {
+  background-image: url('../../assets/Door.svg'); /* Path to your door image */
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 50%; /* Initial width */
+  transition: width 5s ease; /* Animation duration */
+  position: absolute;
+  top: 0;
+}
+/* Door base styles */
+
+/* Left door specific styles */
+.left-door {
+left: 0;
+transform-origin: left;
+transform: translateX(10%);
+}
+
+/* Right door specific styles */
+.right-door {
+right: 0;
+transform-origin: right;
+transform: translateX(0);
+}
+
+/* Door opening animations */
+@keyframes openLeftDoor {
+from {
+  transform: translateX(0);
+}
+to {
+  transform: translateX(-80%);
+}
+}
+
+@keyframes openRightDoor {
+from {
+  transform: translateX(0);
+}
+to {
+  transform: translateX(80%);
+}
+}
+
+/* Door closing animations */
+@keyframes closeLeftDoor {
+from {
+  transform: translateX(-100%);
+}
+to {
+  transform: translateX(0%);
+}
+}
+
+@keyframes closeRightDoor {
+from {
+  transform: translateX(100%);
+}
+to {
+  transform: translateX(0%);
+}
+}
+
+/* Animation classes */
+.left-door {
+animation: openLeftDoor 5.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.right-door {
+animation: openRightDoor 5.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Closing animation classes */
+.left-door.close-door {
+animation: closeLeftDoor 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.right-door.close-door {
+animation: closeRightDoor 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Optional overlay effect */
+/* Optional door pattern */
+.door::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+pointer-events: none;
+}
+
+
+@keyframes glitch {
+0% {
+  clip: rect(0, 9999px, 100px, 0);
+  transform: translate(-2px, -2px);
+}
+20% {
+  clip: rect(10px, 9999px, 80px, 0);
+  transform: translate(2px, -2px);
+}
+40% {
+  clip: rect(30px, 9999px, 60px, 0);
+  transform: translate(-2px, 2px);
+}
+60% {
+  clip: rect(10px, 9999px, 80px, 0);
+  transform: translate(2px, 2px);
+}
+80% {
+  clip: rect(30px, 9999px, 60px, 0);
+  transform: translate(-2px, -2px);
+}
+100% {
+  clip: rect(0, 9999px, 100px, 0);
+  transform: translate(0, 0);
+}
+}
+
+.glitch {
+position: relative;
+color: white;
+text-shadow: 2px 0px 0 #24d9ed, 5px -2px 0 #ff00aa;
+}
+
+.glitch::before,
+.glitch::after {
+content: "Avalanche'24";
+position: absolute;
+left: 0;
+color: white;
+background: inherit;
+overflow: hidden;
+clip: rect(0, 900px, 0, 0);
+}
+
+.glitch::before {
+left: 2px;
+text-shadow: -2px 0 #ff00ff;
+animation: glitch 1s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+left: -2px;
+text-shadow: -2px 0 #00ffea;
+animation: glitch 1s infinite linear alternate-reverse;
+animation-delay: 0.2s;
+}
+

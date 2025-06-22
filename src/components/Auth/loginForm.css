@@ -1,0 +1,30 @@
+.forgot-password{
+    color:#73bbd4;
+    text-align: center;
+    cursor: pointer;
+}
+
+.recaptcha-container {
+  display: inline-block;
+  transform-origin: 0 0; /* Adjusts scaling to be responsive */
+}
+.recaptcha-outer-container{
+    justify-content: center;
+  }
+
+@media (max-width: 600px) {
+  .recaptcha-container {
+    display: inline-block;
+    transform: scale(0.75); /* Adjust the scale as needed */
+    
+  }
+  .recaptcha-outer-container{
+    max-width:150px;
+    justify-content: left;
+  }
+}
+
+.MuiInputBase-input {
+  font-family: monospace !important;
+  font-weight: bold !important;
+}

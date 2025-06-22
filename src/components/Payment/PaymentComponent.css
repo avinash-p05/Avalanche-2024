@@ -1,0 +1,138 @@
+.Payment-outer-container {
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(circle at center, #151515 10%, #0d0d0d 100%);
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    color:white;
+    align-items: center;
+    text-align: center;
+
+    .Payment-inner-container {
+        /* background: red; */
+        width: 90%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .Payment-details{
+            background:url("../assets/qr_code_frame.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 500px;
+            height: 500px;
+            position: relative;
+            padding:5.5rem;
+            
+            .show-more {
+                position: absolute;
+                top: 7%;
+                left: 8%;
+                background: #ffd700;
+                font-size: .7rem;
+                color: black;
+                box-sizing: border-box;
+                padding: 0 .3rem;
+                font-weight:bold;
+            }
+            .show-more:hover {
+                cursor: pointer;
+                background-color: #bb9f00;
+            }
+            .Payment-buttons {
+                position: absolute;
+                bottom: 5%;
+                right: 16%;
+                background-color: #ffd700;
+                color: black;
+                box-sizing: border-box;
+                font-size: .88rem;
+                vertical-align: middle;
+                padding: .2rem;
+                font-weight: bold;
+                box-sizing: border-box;
+                width: 211px;
+                height: 38px;
+                border-radius: 8%;
+                clip-path: polygon(0% 5%, 1% 0%, 96% 1%, 99% 5%, 100% 12%, 100% 98%, 97% 100%, 3% 100%, 0 100%);
+                text-align: center;
+                display: flex;
+                align-items: center;
+            }
+            .Payment-buttons:hover {
+                cursor: pointer;
+                background-color: #bb9f00;
+            }
+            .Payment-details-inner{
+                background: url("../assets/Images/qrcode.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 100%;
+                height: 100%;
+                .Payment-details-content{
+                    padding-top:1rem;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #ffffff;
+                    
+                    *{
+                        margin: 0;
+                        padding: .4rem;
+                    }
+                    button{
+                        background-color: #ffd700;
+                        color:black;
+                        margin-left:.5rem;
+                    }
+                    input{
+                        background-color: #ffffffa6;
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                }
+                .blur{
+                    backdrop-filter: blur(5px);
+                    max-height: 100%;
+                    overflow-y: auto;
+                    background: #00000042;
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Payment-outer-container {
+        .Payment-inner-container {
+            .Payment-details {
+                width: 350px;
+                height: 350px;
+                padding:3.6rem;
+
+                .Payment-buttons {
+                    bottom: 5.1%;
+                    right: 16%;
+                    width: 148px;
+                    height: 25px;
+                    font-size: .6rem;
+                }
+                .show-more {
+                    top: 6.5%;
+                    font-size: .59rem;
+                    padding: 0 .1rem;
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+    
+}

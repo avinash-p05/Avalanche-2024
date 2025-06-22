@@ -1,0 +1,110 @@
+[
+  {
+    "department": "CSE",
+    "topic": "Cyber Security and Privacy"
+  },
+  {
+    "department": "CSE",
+    "topic": "Edge and Quantum Computing"
+  },
+  {
+    "department": "CSE",
+    "topic": "Blockchain and Decentralized systems."
+  },
+  {
+    "department": "ISE",
+    "topic": "Generative AI and applications"
+  },
+  {
+    "department": "ISE",
+    "topic": "Data privacy and protection"
+  },
+  {
+    "department": "ECE",
+    "topic": "Embedded and IoT Application"
+  },
+  {
+    "department": "ECE",
+    "topic": "Wireless communication and 5G/6G technologies"
+  },
+  {
+    "department": "ECE",
+    "topic": "Signal processing and ML applications"
+  },
+  {
+    "department": "EEE",
+    "topic": "Electric Vehicles and IoT"
+  },
+  {
+    "department": "EEE",
+    "topic": "Power and Energy Systems"
+  },
+  {
+    "department": "AE",
+    "topic": "Aerodynamics & Propulsion"
+  },
+  {
+    "department": "AE",
+    "topic": "Structures"
+  },
+  {
+    "department": "CIV",
+    "topic": "Structural Engineering"
+  },
+  {
+    "department": "CIV",
+    "topic": "Water Resources and Environmental Engineering"
+  },
+  {
+    "department": "CIV",
+    "topic": "Transportation Engineering"
+  },
+  {
+    "department": "ME",
+    "topic": "Energy and Sustainability"
+  },
+  {
+    "department": "ME",
+    "topic": "Robotics and Mechatronics"
+  },
+  {
+    "department": "ME",
+    "topic": "AI and IOT for Manufacturing"
+  },
+  {
+    "department": "ARC",
+    "topic": "AI AND ARCHITECTURE"
+  },
+  {
+    "department": "ARC",
+    "topic": "VERNACULAR ARCHITECTURE"
+  },
+  {
+    "department": "MAT",
+    "topic": "Mathematical Modeling of  Environmental Systems and Sustainability."
+  },
+  {
+    "department": "MAT",
+    "topic": "Mathematical Foundations of Data Science and Analytical ."
+  },
+  {
+    "department": "MAT",
+    "topic": "Optimization Techniques for Engineering Design Problems."
+  },
+  {
+    "department": "PHY",
+    "topic": "Photonics"
+  },
+  {
+    "department": "PHY",
+    "topic": "Quantum Mechanics and Quantum computing"
+  },
+  {
+    "department": "CHEM",
+    "topic": "Applications of Nanotechnology"
+  },
+  {
+    "department": "CHEM",
+    "topic": "Advancements in energy devices"
+  }
+]

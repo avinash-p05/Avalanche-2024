@@ -1,0 +1,132 @@
+
+
+.Competition-hero {
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    padding-top:2rem;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    background: black;
+    /* /* justify-content: center; */
+    align-items: center;
+    align-content: center; 
+    margin: 0;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(128, 128, 128, 0.2)), url('../../assets/Images/trophy-background-Photoroom.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: lighting-background 2.5s ease-out;
+    /* clip-path: polygon(0% 56%, 3% 55%, 7% 53%, 7% 45%, 7% 38%, 7% 33%, 8% 31%, 10% 31%, 11% 33%, 11% 36%, 11% 51%, 37% 52%, 40% 51%, 43% 50%, 46% 50%, 50% 50%, 54% 50%, 56% 50%, 60% 51%, 64% 52%, 89% 51%, 89% 36%, 89% 33%, 91% 31%, 92% 32%, 93% 33%, 93% 37%, 93% 51%, 100% 55%, 100% 100%, 0% 100%); */
+}
+
+
+
+
+.trophy-image {
+    max-width: 480px;
+    position: relative;
+    animation: trophy-animation 2s ease-out;
+    transform: translateY(calc(59vh - 100%)); /* Start at 80vh and move up as per the animation */
+}
+
+@keyframes trophy-animation {
+    0% {
+        transform: translateY(-80vh); /* Start off-screen */
+    }
+    100% {
+        transform: translateY(calc(59vh - 100%)); /* End with a consistent position */
+    }
+}
+@keyframes trophy-animation-mobile {
+    0% {
+        transform: translateY(-80vh); /* Start off-screen */
+    }
+    100% {
+        transform: translateY(calc(57vh - 100%)); /* End with a consistent position */
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0))
+    }
+}
+@keyframes trophy-animation-large {
+    0% {
+        transform: translateY(-80vh); /* Start off-screen */
+    }
+    100% {
+        transform: translateY(calc(59vh - 100%)); /* End with a consistent position */
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .trophy-image {
+        max-width: 400px;
+        transform: translateY(calc(57vh - 100%));
+        animation: trophy-animation-mobile 2s ease-out;
+    }
+}
+
+@media screen and (min-width: 1630px) {
+    .trophy-image {
+        max-width: 500px;
+        transform: translateY(calc(59vh - 100%));
+        animation: trophy-animation-large 2s ease-out;
+    }
+}
+
+
+/* bottom scroll arrow  */
+.parallax_scrollPrompt__7zRrT {
+    bottom: 5%;
+    height: 100px;
+    left: 80%;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: opacity 1s ease-out;
+    width: 100px;
+    z-index: 100;
+}
+
+.parallax_scrollPromptShape__wRJXW {
+    animation: slidedown 2.25s infinite;
+    position: absolute;
+}
+.parallax_scrollPromptShape__wRJXW:before{
+    transform: scaleX(-1) rotate(-45deg);
+}
+.parallax_scrollPromptShape__wRJXW:after{
+    transform: rotate(-45deg);
+}
+.parallax_scrollPromptShape__wRJXW:after, .parallax_scrollPromptShape__wRJXW:before {
+    background: #fff;
+    border-radius: 0 .25em .25em 0;
+    content: "";
+    display: block;
+    height: .5em;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform-origin: bottom left;
+    width: 3em;
+}
+/* Keyframes for sliding down effect */
+@keyframes slidedown {
+    0% {
+      opacity: 0;
+    }
+    75% {
+      opacity: 1;
+      transform: translate(0, 80px);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(0, 80px);
+    }
+  }
+
+
+canvas{
+    max-width:100%;
+    max-height: 70vh;
+
+}

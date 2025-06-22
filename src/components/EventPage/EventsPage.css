@@ -1,0 +1,104 @@
+
+.Department_container {
+    /* --background: url('../assets/background_image.jpg'); */
+    /* --background:black; */
+    --background:radial-gradient(circle at center, #121211 10%, #0d0d0d 100%);
+    background: var(--background);
+    min-height:100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.Department-title {
+    text-align: center;
+    z-index: 2;
+    color: #73bbd4;
+    padding: 1rem;
+    background: var(--background);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    align-items: center;
+}
+.dept-radio-outercontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100px;
+    max-width: 80%;
+}
+.dept-radio-cover {
+    display: flex;
+    justify-content: center;
+    padding: .2rem;
+    margin: 0 1rem;
+    margin-top: -5rem;
+    position: relative;
+    background: #73bbd4;
+    clip-path: polygon(5% 13%, 18% 0, 44% 0%, 46% 0, 49% 0, 54% 0, 65% 0, 72% 0, 86% 0, 100% 19%, 100% 11%, 100% 7%, 95% 0, 90% 0, 100% 13%, 100% 24%, 100% 30%, 100% 49%, 100% 64%, 100% 76%, 100% 100%, 75% 100%, 75% 95%, 40% 95%, 40% 100%, 25% 100%, 15% 100%, 7% 100%, 0% 87%, 0% 55%, 0 14%);
+}
+.dept-radio-innercover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 3rem;
+    padding-bottom:2rem;
+    background: var(--background);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    clip-path: polygon(5% 13%, 18% 0, 44% 0%, 46% 0, 49% 0, 54% 0, 65% 0, 72% 0, 86% 0, 100% 19%, 100% 11%, 100% 7%, 95% 0, 90% 0, 100% 13%, 100% 24%, 100% 30%, 100% 49%, 100% 64%, 100% 76%, 100% 100%, 75% 100%, 75% 95%, 40% 95%, 40% 100%, 25% 100%, 15% 100%, 7% 100%, 0% 87%, 0% 55%, 0 14%);
+}
+.dept-color-choice-radio-container {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.color-box{
+    width:10px;
+    height:10px;
+    display: block;
+}
+.unselect-color>.color-box{
+    background-color: #59c1f9ab;
+}
+.select-color>.color-box{
+    background-color: #f7ce45b7;
+}
+span.select-color,span.unselect-color {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+}
+span.dept-color-choice-radio-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+    max-width: 20vw;
+}
+span.color-box-label {
+    font-size: 11.5px;
+    color: white;
+}

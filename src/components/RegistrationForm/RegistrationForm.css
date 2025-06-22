@@ -1,0 +1,80 @@
+.Registration-form{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background: radial-gradient(circle at center, #151515 10%, #0d0d0d 100%);
+    
+    .Registration-form-inner{
+    background: url("../assets/qr_code_frame.png");
+    position: relative;
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    /* padding: 6rem; */
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+        form{
+            /* background-color: red; */
+            height:400px;
+            width:400px;
+            overflow: auto;
+            .Registration-form-content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-height:100%;
+                width: 100%;
+            }
+            .registration-event-id {
+                display: inline-block;
+                position: absolute;
+                top: 6.5%;
+                color: white;
+                left: 11%;
+            }
+            .Registration-form-button {
+                position: absolute;
+                bottom: 5.5%;
+                right: 20%;
+                background-color: #ffd700;
+                width: 211px;
+            }
+    
+    }
+}
+}
+
+@media screen and (max-width:600px){
+    .Registration-form{
+        .Registration-form-inner{
+            width:300px;
+            height:300px;
+
+            form{
+                height:200px;
+                width:200px;
+                .Registration-form-button {
+                    width: 105.5px;
+                    font-size: .6rem;
+                    padding: .1rem;
+                }
+                .registration-event-id {
+                    top: 6.5%;
+                    font-size: .6rem;
+                    left: 11%;
+                }
+            }
+        }
+
+    }
+
+}
