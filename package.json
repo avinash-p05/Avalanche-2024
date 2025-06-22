@@ -1,0 +1,49 @@
+{
+  "name": "avalanche_backend_2024",
+  "version": "1.0.0",
+  "description": "Backend for avalanche 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx nodemon ./index.js",
+    "start": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinash-p05/avalanche_2024.git"
+  },
+  "keywords": [
+    "Avalanche",
+    "2024",
+    "Backend",
+    "Tech",
+    "Test",
+    "nodejs"
+  ],
+  "author": "Tech Team KLS GIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avinash-p05/avalanche_2024/issues"
+  },
+  "homepage": "https://github.com/avinash-p05/avalanche_2024#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.7",
+    "path": "^0.12.7",
+    "xlsx": "^0.18.5"
+  }
+}
